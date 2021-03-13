@@ -1,5 +1,5 @@
 body {
-    width: 400px;
+    max-width: 400px;
     margin: auto;
 
     font-family: 'Courier New', Courier, monospace;
@@ -94,7 +94,7 @@ body {
     grid-gap: 5px;
     grid-template-rows: repeat(6, 50px);
     padding: 20px;
-
+    width: 100%;
 }
 
 .container>button {
@@ -111,4 +111,13 @@ body {
     vertical-align: middle;
     padding: 0 10px;
     border: 1px solid white;
+
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.container>.monitor>p {
+    float: right;
 }
