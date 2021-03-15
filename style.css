@@ -18,6 +18,12 @@ body {
     grid-area: equal;
 }
 
+.toggle {
+    grid-area: toggle;
+}
+.percentage {
+    grid-area: percentage;
+}
 .divide {
     grid-area: divide;
 }
@@ -82,6 +88,7 @@ body {
     grid-area: dot;
 }
 
+
 .container {
     display: grid;
     grid-template-areas:
@@ -93,8 +100,9 @@ body {
         'zero zero dot equal';
     grid-gap: 5px;
     grid-template-rows: repeat(6, 50px);
-    padding: 20px;
+    padding: 10px;
     width: 100%;
+    background-color: #222;
 }
 
 .container>button {
@@ -103,18 +111,32 @@ body {
 
     padding: 10px;
     border: none;
+
+    background-color: #F8D8C0;
 }
+.container>button:hover {
+    /* filter: brightness(60%); */
+    background-color: #251709;
+    color: white;
+}
+.container .ops {
+    background-color: #FFA07A;
+}
+
 
 .container>.monitor {
     grid-area: monitor;
     color: white;
     vertical-align: middle;
     padding: 0 10px;
-    border: 1px solid white;
+    border: 1px solid #F8D8C0;
 
     text-align: right;
     overflow: hidden;
     white-space: nowrap;
+
+    background-color: #251709;
+    color: white;
 }
 
 
