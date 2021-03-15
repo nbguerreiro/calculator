@@ -86,11 +86,11 @@ body {
     display: grid;
     grid-template-areas:
         'monitor monitor monitor monitor'
-        'clear equal divide multiply'
-        'seven eight nine subtract'
-        'four five six add'
-        'one two three enter'
-        'zero zero dot enter';
+        'clear toggle percentage divide'
+        'seven eight nine multiply'
+        'four five six subtract'
+        'one two three add'
+        'zero zero dot equal';
     grid-gap: 5px;
     grid-template-rows: repeat(6, 50px);
     padding: 20px;

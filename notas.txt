@@ -1,0 +1,35 @@
+
+vars:
+    first text
+    second text
+    operation
+
+
+
+if (/[\*\-\/\+]/.test(val)) {
+
+
+javascript check if variable exists 
+if (typeof myVar !== 'undefined') {
+    // myVar is defined
+}
+
+We cannot undeclare a variable. However, we can set its value to undefined for the purpose
+nxt = undefined; 
+
+
+
+if
+    number
+        add to text
+        which one?
+        if operation already set : add to second
+        else add to first
+
+
+else
+    operation
+        if operation already set : 
+            run operation, reset all and dump result in first
+        else : 
+            simply set operation
